@@ -1,0 +1,29 @@
+.lead {
+  max-width: 984px; 
+  margin: 0 auto 92px;
+}
+
+
+@media all and (max-width: 768px) { 
+  .lead { 
+    margin-left: -24px; 
+    margin-right: -24px; 
+  } 
+} 
+
+@media all and (max-width: 767px) { 
+  .lead { 
+    margin-bottom: 88px; 
+  } 
+  
+  } 
+  
+   
+  
+@media all and (max-width: 375px) { 
+  .lead { 
+    margin-left: -16px; 
+    margin-right: -16px; 
+    margin-bottom: 64px;
+  } 
+} 

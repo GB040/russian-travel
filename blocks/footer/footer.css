@@ -1,0 +1,26 @@
+.footer {
+  max-width: 1184px; 
+  margin: 0 auto 48px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+}
+
+@media all and (max-width: 810px) { 
+  .footer { 
+    margin-left: -24px; 
+    margin-right: -24px; 
+	} 
+} 
+
+@media all and (max-width: 768px) {
+  .footer {
+    margin: 0 0 24px; 
+  }
+} 
+
+@media all and (max-width: 767px) { 
+	.footer { 
+    display: block; 
+	} 
+} 
